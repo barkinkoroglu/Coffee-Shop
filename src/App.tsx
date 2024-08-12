@@ -8,6 +8,7 @@ import Reservation from "./components/Reservation";
 import Comment from "./components/Comment";
 import Articles from "./components/Articles";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Comment />
       <Articles />
       <Gallery />
+      <Footer />
     </div>
   );
 };
