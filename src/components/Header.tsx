@@ -41,24 +41,24 @@ const Header = () => {
           </span>
           <div className="flex flex-col gap-2 ">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-2">
-              <span className="font-Source text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 font-light">
+              <span className="font-Source text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 font-light">
                 Mon - Fri
               </span>
               <span className="hidden sm:block text-gray-600 font-Source font-light text-[20px]">
                 ...........................
               </span>
-              <span className="font-Source text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 font-light">
+              <span className="font-Source text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 font-light">
                 6.00 am - 7.00 pm
               </span>
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-between gap-2">
-              <span className="font-Source text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 font-light">
+              <span className="font-Source text-[16px]  md:text-[18px] lg:text-[20px] text-gray-600 font-light">
                 Sat - Sun
               </span>
               <span className="hidden sm:block text-gray-600 font-Source font-light text-[20px]">
                 ...........................
               </span>
-              <span className="font-Source text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 font-light">
+              <span className="font-Source text-[16px] sm:text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 font-light">
                 7.00 am - 8.00 pm
               </span>
             </div>
