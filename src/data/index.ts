@@ -37,26 +37,24 @@ export const navItems = [
 export const services = [
   {
     title: "Cozy Ambiance",
-    description:
-      "Purus pulvinar feugiat orci dictumst ellentesque ut sem partu rient.",
+    description: "Relax in our warm, inviting space designed for your comfort.",
     icon: papercup,
   },
   {
     title: "Artisanal Coffee",
     description:
-      "Orci dictumst ellentesque ut sem partu rient purus pulvinar feugiat.",
+      "Enjoy meticulously crafted coffee made from the finest beans.",
     icon: boiler,
   },
   {
     title: "Fresh Delights",
     description:
-      "Eugiat orci dictumst ellentesque ut sem purus pulvinar partu rient.",
+      "Savor fresh pastries and snacks made with seasonal ingredients.",
     icon: cup,
   },
   {
     title: "Friendly Service",
-    description:
-      "Eugiat orci dictumst ellentesque ut sem purus pulvinar partu rient.",
+    description: "Experience attentive and personalized service with a smile.",
     icon: coffee,
   },
 ];
