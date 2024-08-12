@@ -7,6 +7,7 @@ import Menu from "./components/Menu";
 import Reservation from "./components/Reservation";
 import Comment from "./components/Comment";
 import Articles from "./components/Articles";
+import Gallery from "./components/Gallery";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Reservation />
       <Comment />
       <Articles />
+      <Gallery />
     </div>
   );
 };
