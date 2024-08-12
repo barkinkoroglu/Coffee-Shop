@@ -6,24 +6,24 @@
 @tailwind utilities;
 
 body {
-	padding: 0;
-	margin: 0;
-	width: 100vw;
-	min-height: 100vh;
-	background-color: #f5f4f2;
-	overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f5f4f2;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
-	width: 9px;
-	height: 9px;
+  width: 9px;
+  height: 9px;
 }
 ::-webkit-scrollbar * {
-	background: transparent;
+  background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-	background: #ee8542 !important;
+  background: #ee8542 !important;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background: #c26b35 !important;
+  background: #c26b35 !important;
 }
