@@ -16,7 +16,7 @@ const Footer = () => {
           <img src={item.image} alt={item.alt} key={item.alt} />
         ))}
       </div>
-      <div className="w-full mt-[100px] flex lg:flex-row flex-col items-start justify-between lg:gap-0 gap-10 lg:px-[210px] px-5">
+      <div className="w-full mt-[100px] flex lg:flex-row flex-col items-start justify-between gap-10 lg:px-[210px] px-5">
         <div className="flex flex-col">
           <img src={logo} alt="logo" className="w-[100px]" />
           <span className="font-Source text-lg font-light text-secondary max-w-[310px] mt-3">
