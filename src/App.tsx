@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Selection from "./components/Selection";
 import Menu from "./components/Menu";
 import Reservation from "./components/Reservation";
+import Comment from "./components/Comment";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Selection />
       <Menu />
       <Reservation />
+      <Comment />
     </div>
   );
 };
