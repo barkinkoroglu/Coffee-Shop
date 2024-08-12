@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Selection from "./components/Selection";
 import Menu from "./components/Menu";
+import Reservation from "./components/Reservation";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Services />
       <Selection />
       <Menu />
+      <Reservation />
     </div>
   );
 };
