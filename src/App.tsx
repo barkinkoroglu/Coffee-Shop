@@ -6,6 +6,7 @@ import Selection from "./components/Selection";
 import Menu from "./components/Menu";
 import Reservation from "./components/Reservation";
 import Comment from "./components/Comment";
+import Articles from "./components/Articles";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Menu />
       <Reservation />
       <Comment />
+      <Articles />
     </div>
   );
 };
