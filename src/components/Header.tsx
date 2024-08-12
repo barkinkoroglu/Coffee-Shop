@@ -27,41 +27,40 @@ const Header = () => {
             Have a cup of coffee
           </span>
           <p className="text-gray-600 font-Source text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-light max-w-[90%] md:max-w-[600px] leading-6 sm:leading-7 lg:leading-8 mx-auto">
-            Morbi justo vel diam non leo elementum massa. Molestie ipsum
-            condimentum egestas vitae ut cras aenean aoreet odionis.
+            Enjoy the rich flavors of our freshly brewed coffee. Perfect for a
+            morning boost or an afternoon treat."
           </p>
           <div className="flex justify-center mt-3">
             <Button>Book a Table</Button>
           </div>
         </div>
 
-        <div className="flex flex-col gap-2 lg:border-l border-gray-300 lg:pl-10 text-center lg:text-left">
-          <span className="uppercase font-Bebas text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] text-gray-800 tracking-wide">
+        <div className=" flex  flex-col items-center justify-center gap-2  border-gray-300 lg:pl-10 text-center lg:text-left">
+          <span className="uppercase lg:pt-24 font-Bebas text-[28px] sm:text-[32px] md:text-[36px] lg:text-[40px] text-gray-800 tracking-wide">
             It's Koffee Time!
           </span>
           <div className="flex flex-col gap-2 ">
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-2">
-              <span className="font-Source text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 font-light">
-                Mon - Fri
-              </span>
-              <span className="hidden sm:block text-gray-600 font-Source font-light text-[20px]">
-                ...........................
-              </span>
-              <span className="font-Source text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 font-light">
-                6.00 am - 7.00 pm
-              </span>
+            <div className="flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-6 px-4 py-6">
+              <div className="flex flex-col items-center lg:items-start">
+                <span className="font-Source text-[20px] lg:text-[24px] text-gray-800 font-semibold">
+                  Mon - Fri
+                </span>
+                <span className="hidden lg:block w-full border-t border-gray-300 my-2 lg:my-4"></span>
+                <span className="font-Source text-[18px] lg:text-[20px] text-gray-600 font-light">
+                  6.00 am - 7.00 pm
+                </span>
+              </div>
+              <div className="flex flex-col items-center lg:items-start">
+                <span className="font-Source text-[20px] lg:text-[24px] text-gray-800 font-semibold">
+                  Sat - Sun
+                </span>
+                <span className="hidden lg:block w-full border-t border-gray-300 my-2 lg:my-4"></span>
+                <span className="font-Source text-[18px] lg:text-[20px] text-gray-600 font-light">
+                  7.00 am - 8.00 pm
+                </span>
+              </div>
             </div>
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-2">
-              <span className="font-Source text-[16px]  md:text-[18px] lg:text-[20px] text-gray-600 font-light">
-                Sat - Sun
-              </span>
-              <span className="hidden sm:block text-gray-600 font-Source font-light text-[20px]">
-                ...........................
-              </span>
-              <span className="font-Source text-[16px] sm:text-[16px] md:text-[18px] lg:text-[20px] text-gray-600 font-light">
-                7.00 am - 8.00 pm
-              </span>
-            </div>
+
             <Button className="mt-3 opacity-0 pointer-events-none">
               Book a Table
             </Button>
